@@ -7,4 +7,6 @@ This repository its for my own study, but if you want to use it, feel free to do
 
 ## Table of Contents
 - ### [1 Algebra](/01Algebra)
-  #### [1.1 BinaryExponentiation](/01Algebra/01-BinaryExponentiation)
+  - #### [1.1 Fundamentals](/01Algebra/01Fundamentals)
+    ##### [1.1.1 BinaryExponentiation](/01Algebra/01Fundamentals/01-BinaryExponentiation)
+    ##### [1.1.2 GCD](/01Algebra/01Fundamentals/02-GCD)
