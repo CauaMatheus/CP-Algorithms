@@ -33,33 +33,33 @@ $f(f(f(f(f(f(f(f(1))))))))$, but we know that $f(f(x)) = h(x)$ and $h(h(x)) = k(
 Below you can see the implementation of the algorithms.
 
 # Algorithms
-## [Recursive Binary Exponentiation](/01Algebra/01-BinaryExponentiation/algos/recursive.cpp)
+## [Recursive Binary Exponentiation](/01Algebra/01Fundamentals/01-BinaryExponentiation/algorithms/recursive.cpp)
 A recursive implementation of binary exponentiation.
 
-## [Iterative Binary Exponentiation](/01Algebra/01-BinaryExponentiation/algos/iterative.cpp)
+## [Iterative Binary Exponentiation](/01Algebra/01Fundamentals/01-BinaryExponentiation/algorithms/iterative.cpp)
 An iterative implementation of binary exponentiation.
 
-## [Modular Binary Exponentiation](/01Algebra/01-BinaryExponentiation/algos/modular.cpp)
+## [Modular Binary Exponentiation](/01Algebra/01Fundamentals/01-BinaryExponentiation/algorithms/mod.cpp)
 An implementation of binary exponentiation with modular arithmetic.
 
 # Problems
-## [01 - UVa 1230 - MODEX](https://vjudge.net/problem/UVA-1230) | [(Click here tho see the solution  ✅)](/01Algebra/01-BinaryExponentiation/problems/01Modex.cpp)
+## [01 - UVa 1230 - MODEX](https://vjudge.net/problem/UVA-1230) | [(Click here tho see the solution  ✅)](/01Algebra/01Fundamentals/01-BinaryExponentiation/problems/01Modex.cpp)
 Answer `c` queries of given three integers `x`, `y`, and `n`, compute `x^y mod n`.  
 
-## [02 - UVa 374 - Big Mod](https://vjudge.net/problem/UVA-374) | [(Click here tho see the solution  ✅)](/01Algebra/01-BinaryExponentiation/problems/02BigMod.cpp)
+## [02 - UVa 374 - Big Mod](https://vjudge.net/problem/UVA-374) | [(Click here tho see the solution  ✅)](/01Algebra/01Fundamentals/01-BinaryExponentiation/problems/02BigMod.cpp)
 Answer unknown number of queries until EOF of given three integers `B`, `P`, and `M`, compute `B^P mod M`.  
 
-## [03 - UVa 11029 - Leading and Trailing](https://vjudge.net/problem/UVA-11029) | [(Click here tho see the solution  ✅)](/01Algebra/01-BinaryExponentiation/problems/03LeadingAndTrailing.cpp)
+## [03 - UVa 11029 - Leading and Trailing](https://vjudge.net/problem/UVA-11029) | [(Click here tho see the solution  ✅)](/01Algebra/01Fundamentals/01-BinaryExponentiation/problems/03LeadingAndTrailing.cpp)
 Answer `t` queries of given two integers `n` and `k`, compute the first 3 digits and the last 3 digits of `n^k`. **HUGE NUMBERS LIKE 2147483647^10000000**  
 
 ## [04 - Codeforces 630I - Parking Lot](https://vjudge.net/problem/CodeForces-630I)
 TODO
 
-## [05 - Leetcode - Count good numbers](https://leetcode.com/problems/count-good-numbers/) | [(Click here tho see the solution  ✅)](/01Algebra/01-BinaryExponentiation/problems/05CountGoodNumbers.cpp)
+## [05 - Leetcode - Count good numbers](https://leetcode.com/problems/count-good-numbers/) | [(Click here tho see the solution  ✅)](/01Algebra/01Fundamentals/01-BinaryExponentiation/problems/05CountGoodNumbers.cpp)
 Good numbers is numbers that in even positions have the digits (0, 2, 4, 6 or 8) and in odd positions has (2, 3, 5 or 7).
 Given an integer `n`, return the number of good numbers of length `n`. Since the answer may be very large, return it modulo `10^9 + 7`.  
 
-## [06 - CodeChef - Chef and Riffles](https://vjudge.net/problem/CodeChef-RIFFLES) | [(Click here tho see the solution  ✅)](/01Algebra/01-BinaryExponentiation/problems/06ChefAndRiffles.cpp)
+## [06 - CodeChef - Chef and Riffles](https://vjudge.net/problem/CodeChef-RIFFLES) | [(Click here tho see the solution  ✅)](/01Algebra/01Fundamentals/01-BinaryExponentiation/problems/06ChefAndRiffles.cpp)
 Asnwer `t` queries of given an initial array `f` that is an iota from 1 to `n`, apply `k` times the permutations `g` = (f(1), f(3), f(5), ... , f(n-1), f(2), f(4), f(6), ... , f(n))  
 
 ## [07 - Codeforces - Decoding Genome](https://vjudge.net/problem/CodeForces-222E)
@@ -71,13 +71,13 @@ TODO
 ## [09 - Codeforces - Magic Gems](https://vjudge.net/problem/CodeForces-1117D)
 TODO
 
-## [10 - SPOJ - The last digit](https://vjudge.net/problem/SPOJ-LASTDIG) | [(Click here tho see the solution  ✅)](/01Algebra/01-BinaryExponentiation/problems/10TheLastDigit.cpp)
+## [10 - SPOJ - The last digit](https://vjudge.net/problem/SPOJ-LASTDIG) | [(Click here tho see the solution  ✅)](/01Algebra/01Fundamentals/01-BinaryExponentiation/problems/10TheLastDigit.cpp)
 Answer `t` queries of given two integers `a` and `b`, compute the last digit of `a^b`.  
 
-## [11 - SPOJ - Magic of the locker](https://vjudge.net/problem/SPOJ-LOCKER) | [(Click here tho see the solution  ✅)](/01Algebra/01-BinaryExponentiation/problems/11MagicOfTheLocker.cpp)
+## [11 - SPOJ - Magic of the locker](https://vjudge.net/problem/SPOJ-LOCKER) | [(Click here tho see the solution  ✅)](/01Algebra/01Fundamentals/01-BinaryExponentiation/problems/11MagicOfTheLocker.cpp)
 Answer `t` queries of given a integer `k`, find the largest product of a combination of integers having sum equal to k.
 
-## [12 - LA - 3722 Jewel-eating Monsters](https://vjudge.net/problem/UVALive-3722) | [(Click here tho see the solution  ✅)](/01Algebra/01-BinaryExponentiation/problems/12JewelEatingMonsters.cpp)
+## [12 - LA - 3722 Jewel-eating Monsters](https://vjudge.net/problem/UVALive-3722) | [(Click here tho see the solution  ✅)](/01Algebra/01Fundamentals/01-BinaryExponentiation/problems/12JewelEatingMonsters.cpp)
 ### !!! Usage of Matrix Exponentiation !!!
 
 Answer unknown queries of the problem:  
@@ -87,7 +87,7 @@ After `n` nights, he will leave the cave and buy the maximum quantity of
 diamonds that cost `c` each.  
 How much coins he will have at the end?  
 
-## [13 - SPOJ - Just add it](https://vjudge.net/problem/SPOJ-ZSUM) | [(Click here tho see the solution  ✅)](/01Algebra/01-BinaryExponentiation/problems/13JustAddIt.cpp)
+## [13 - SPOJ - Just add it](https://vjudge.net/problem/SPOJ-ZSUM) | [(Click here tho see the solution  ✅)](/01Algebra/01Fundamentals/01-BinaryExponentiation/problems/13JustAddIt.cpp)
 Answer unknown queries of given `n` and `k`, what is the result of
 $(Z_n + Z_{n-1} - 2*Z_{n-2})\%10000007$, where:
 $$Z_n = S_n + P_n$$
