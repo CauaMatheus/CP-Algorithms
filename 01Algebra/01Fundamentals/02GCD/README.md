@@ -16,7 +16,8 @@ Here when we get 0 as remainder, we know that the GCD is the smallest number, so
 ```
 
 So you can recursively apply this algorithm until you get 0 as remainder.  
-$\gcd(a, b) = \begin{cases}a,&\text{if }b = 0 \\ \gcd(b, a \bmod b),&\text{otherwise.}\end{cases}$
+
+$$\gcd(a, b) = \begin{cases}a,&\text{if }b = 0 \\ \gcd(b, a \bmod b),&\text{otherwise.}\end{cases}$$
 
 Below you can see the implementation of the algorithms.
 
